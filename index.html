@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Checkpoint de Front-end sobre CSS Grid e layouts responsivos.">
+    <title>CP4 - Grid Layout e Responsividade | Prof: Cyntia</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="page-header">
+        <h1>CP4 - Grid Layout Responsividade</h1>
+    </header>
+
+    <main>
+        <section class="spotlight-section" aria-label="Destaques de viagem">
+            <div class="spotlight-grid">
+                <figure class="hero-card">
+                    <img src="images/banner/01.jpg"
+                        alt="Vista costeira de Mykonos com construções brancas e barcos no mar">
+                </figure>
+
+                <div class="spotlight-content">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam quia distinctio totam,
+                        consequatur architecto, excepturi optio, consectetur molestiae aspernatur alias nulla incidunt
+                        voluptatem culpa nemo delectus quo eveniet accusantium cum!
+                    </p>
+                    <a class="button" href="#galeria-mar">Saiba mais</a>
+                </div>
+
+                <div class="thumbnail-grid" aria-label="Outros destinos em destaque">
+                    <figure class="thumbnail-card">
+                        <img src="images/banner/04.jpg"
+                            alt="Passagem estreita entre casas brancas com vista para o mar">
+                    </figure>
+                    <figure class="thumbnail-card">
+                        <img src="images/banner/03.jpg" alt="Igreja grega de cúpula azul diante do mar">
+                    </figure>
+                    <figure class="thumbnail-card">
+                        <img src="images/banner/02.jpg"
+                            alt="Varanda azul em fachada branca decorada com flores vermelhas">
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+        <section id="galeria-mar" class="sea-section" aria-label="Galeria de praias">
+            <div class="sea-grid">
+                <figure class="sea-card">
+                    <img src="images/sea/01.jpg" alt="Praia tranquila cercada por grandes rochas">
+                </figure>
+                <figure class="sea-card sea-card--tall">
+                    <img src="images/sea/03.jpg" alt="Praia de águas azul-turquesa vista do alto">
+                </figure>
+                <figure class="sea-card">
+                    <img src="images/sea/01.jpg" alt="Mar transparente entre formações rochosas">
+                </figure>
+                <figure class="sea-card sea-card--tall">
+                    <img src="images/sea/03.jpg" alt="Costa de areia clara banhada por mar turquesa">
+                </figure>
+                <figure class="sea-card">
+                    <img src="images/sea/01.jpg" alt="Enseada de água calma com pedras na areia">
+                </figure>
+                <figure class="sea-card">
+                    <img src="images/sea/02.jpg" alt="Caminho de madeira com vista para o oceano">
+                </figure>
+                <figure class="sea-card">
+                    <img src="images/sea/02.jpg" alt="Dunas e vegetação diante do mar azul">
+                </figure>
+                <figure class="sea-card">
+                    <img src="images/sea/02.jpg" alt="Paisagem costeira com passarela de acesso à praia">
+                </figure>
+            </div>
+        </section>
+    </main>
+
+    <footer class="page-footer">
+        <p>
+            <strong>Integrantes:</strong> Henrique Lira - RM571009 | Pedro Passos - RM573493
+        </p>
+    </footer>
+</body>
+
+</html>
